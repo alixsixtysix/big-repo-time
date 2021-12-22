@@ -1,7 +1,6 @@
 FROM alpine
 
 RUN apk update \
- && apk add bash \
- && apk add curl
+ && apk add bash curl
 
 CMD ["bash"]
